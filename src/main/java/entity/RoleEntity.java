@@ -1,4 +1,7 @@
 package entity;
 
-public class RoleEntity {
+
+public enum RoleEntity {
+    USER,
+    ADMIN;
 }

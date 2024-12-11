@@ -45,7 +45,7 @@ public class AuthServiceImpl implements AuthService {
         RegisterResponseDto response = new RegisterResponseDto();
         // Örnek yanıt
         response.setMessage("User registered successfully!");
-        response.setUsername(registerRequestDto.getUsername());
+        response.setUsername(response.getUsername());
 
         return response;
     }

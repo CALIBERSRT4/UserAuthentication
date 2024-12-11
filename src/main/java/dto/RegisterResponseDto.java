@@ -15,4 +15,20 @@ public class RegisterResponseDto {
 
     private String username;
     private String message;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setUsername(String message) {
+        this.message = message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }

@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Genel gövde stilleri */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Stil Ayarları */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Başlığı */
+form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333333;
+    font-size: 24px;
+}
+
+/* Formdaki Girdi Kutuları */
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Girdi Kutusu Üzerine Hover Efekti */
+form input:focus {
+    outline: none;
+    border-color: #5e9bff;
+    box-shadow: 0px 0px 4px #a3caff;
+}
+
+/* Buton Ayarları */
+form button {
+    background-color: #5e9bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Buton Hover Efekti */
+form button:hover {
+    background-color: #4a88e0;
+}
+
+/* Hata Mesajı Alanı */
+#errorMessage {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}

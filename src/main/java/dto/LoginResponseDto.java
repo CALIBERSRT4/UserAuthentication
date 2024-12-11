@@ -8,11 +8,14 @@ import lombok.extern.log4j.Log4j2;
 
 @Data
 @Builder
-@AllArgsConstructor
 @NoArgsConstructor
 @Log4j2
 public class LoginResponseDto {
 
     private String message;
+
+    public LoginResponseDto(String message) {
+        this.message = message;
+    }
 
 }
